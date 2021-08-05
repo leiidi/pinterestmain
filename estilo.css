@@ -1,0 +1,418 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+#logo{
+    width: 24px;
+    margin-left: 26px;
+    margin-top: 26px;
+    height: auto;
+}
+.paginainicial{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: #111111;
+    font-weight: 700;
+    margin-left: 85px;
+    margin-top: -26px;
+}
+.hoje{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    color: #111111;
+    font-weight: 700;
+    margin-left: 222px;
+    margin-top: -37px;
+}
+
+#search{
+    border-radius: 23px 23px 23px 23px;
+    height: 50px;
+    width: 710px;
+    margin-top: -50px;
+    margin-left: 300px;
+    border: none;
+    background-color: #e1e1e1;
+    padding: 0;
+    position: absolute;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+}
+
+#searchicon{
+    position: absolute;
+    width: 18px;
+    height: auto;
+    margin-left: 320px;
+    margin-top: -33px;
+}
+#ordem{
+    position: absolute;
+    margin-left: 878px;
+    margin-top: -35px;
+    border: none;
+    border-radius: 23px 23px 23px 23px;
+    background-color: #e1e1e1;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 15px;
+    padding: 0;
+}
+option{
+    font-weight: bold;
+}
+#bell{
+    position: absolute;
+    width: 25px;
+    height: auto;
+    margin-left: 1025px;
+    margin-top: -35px;
+}
+#writing{
+    position: absolute;
+    width: 25px;
+    height: auto;
+    margin-left: 1070px;
+    margin-top: -35px;
+}
+#circle{
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    margin: 50px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+    margin-left: 1110px;
+    margin-top: -35px;
+    position: absolute;
+}
+#leidi{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 1112px;
+    margin-top: -32px;
+}
+#contas{
+    border: none;
+    position: absolute;
+    margin-left: 1150px;
+    margin-top: -29px;
+    width: 35px;
+}
+.circulo{
+    width: 120px;
+    height: 120px;
+    background-color: #111111;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 555px;
+}
+.username{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 33px;
+    margin-left: 505px;
+    margin-top: 170px;
+    position: absolute;
+}
+.email{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-left: 558px;
+    margin-top: 220px;
+    position: absolute;
+}
+.followers{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin-left: 520px;
+    margin-top: 250px;
+    position: absolute;
+}
+#big{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 555px;
+    border: none;
+}
+#pencil{
+    position: absolute;
+    width: 18px;
+    height: auto;
+    margin-top: 310px;
+    margin-left: 50px;
+    
+}
+#upload{
+    position: absolute;
+    width: 18px;
+    height: auto;
+    margin-top: 310px;
+    margin-left: 90px;
+}
+.coluna-30 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 350px;
+    margin-left: 43px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+.coluna-31{
+    width: 78px;
+    height: 78px;
+    background-color: #111111;
+    margin-left: 194px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+.coluna-32{
+    width: 78px;
+    height: 78px;
+    background-color: fuchsia;
+    margin-left: 194px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+    
+}
+.coluna-33 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 350px;
+    margin-left: 299px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+.coluna-34{
+    width: 78px;
+    height: 78px;
+    background-color: #111111;
+    margin-left: 450px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+.coluna-35{
+    width: 78px;
+    height: 78px;
+    background-color: fuchsia;
+    margin-left: 450px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+    
+}
+.coluna-36 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 350px;
+    margin-left: 550px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+.coluna-37{
+    width: 78px;
+    height: 78px;
+    background-color: #111111;
+    margin-left: 701px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+.coluna-38{
+    width: 78px;
+    height: 78px;
+    background-color: fuchsia;
+    margin-left: 701px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+    
+}
+.coluna-39 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 350px;
+    margin-left: 800px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+.coluna-40{
+    width: 78px;
+    height: 78px;
+    background-color: #111111;
+    margin-left: 952px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+.coluna-41{
+    width: 78px;
+    height: 78px;
+    background-color: fuchsia;
+    margin-left: 952px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+    
+}
+.coluna-42 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 350px;
+    margin-left: 1040px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+.coluna-43{
+    width: 78px;
+    height: 78px;
+    background-color: #111111;
+    margin-left: 1192px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+.coluna-44{
+    width: 78px;
+    height: 78px;
+    background-color: fuchsia;
+    margin-left: 1192px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+    
+}
+#teste{
+    width: 150px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 43px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+#teste1{
+    width: 150px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 299px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+#teste2{
+    width: 150px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 550px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+#teste3{
+    width: 150px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 800px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+}
+#teste4{
+    width: 150px;
+    height: 150px;
+    margin-top: 350px;
+    margin-left: 1040px;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+
+}
+#teste5{
+    width: 78px;
+    height: 78px;
+    margin-left: 194px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+#teste6{
+    width: 78px;
+    height: 78px;
+    margin-left: 194px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+}
+#teste7{
+    width: 150px;
+    height: 150px;
+    margin-left: 701px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+#teste8{
+    width: 150px;
+    height: 150px;
+    margin-left: 952px;
+    margin-top: 350px;
+    position: absolute;
+    border-radius: 0px 20px 0px 0px;
+
+}
+#teste9{
+    width: 150px;
+    height: 150px;
+    margin-left: 194px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+
+}
+#teste10{
+    width: 150px;
+    height: 150px;
+    margin-left: 450px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+}
+#teste11{
+    width: 150px;
+    height: 150px;
+    margin-left: 701px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+}
+#teste12{
+    width: 150px;
+    height: 150px;
+    margin-left: 952px;
+    margin-top: 423px;
+    position: absolute;
+    border-radius: 0px 0px 20px 0px;
+}
